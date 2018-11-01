@@ -1,6 +1,6 @@
 # graphqlTest
 1. Query
-```java
+```
 schema {
     query: Query
     mutation: Mutation
@@ -25,7 +25,7 @@ result:
 ```
 
 2. Mutation
-```json
+```
 mutation createLink {
   createLink(url: "http://www.graph.cool", description: "Serverless GraphQL Backend"){
   	url
@@ -46,7 +46,7 @@ mutation createLink {
 ```
 
 再查询：
-```json
+```
 {
   allLinks {
     url
