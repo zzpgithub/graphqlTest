@@ -25,7 +25,40 @@ result:
   }
 }
 ```
-
+查询一个link:
+```
+{
+  allLinks {
+    url
+    description
+  }
+  link(id: 0){
+    url
+    description
+  }
+}
+```
+查询结果：
+```json
+{
+  "data": {
+    "allLinks": [
+      {
+        "url": "http://howtographql.com",
+        "description": "Your favorite GraphQL page"
+      },
+      {
+        "url": "http://graphql.org/learn/",
+        "description": "The official docks"
+      }
+    ],
+    "link": {
+      "url": "http://howtographql.com",
+      "description": "Your favorite GraphQL page"
+    }
+  }
+}
+```
 2. Mutation
 ```
 mutation createLink {

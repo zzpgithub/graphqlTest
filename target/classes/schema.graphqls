@@ -5,6 +5,7 @@ type Link {
 
 type Query {
     allLinks: [Link]
+    link(id: Int): Link
 }
 
 type Mutation {
