@@ -1,9 +1,11 @@
 # graphqlTest
 1. Query
 ```
-schema {
-    query: Query
-    mutation: Mutation
+{
+  allLinks {
+    url
+    description
+  }
 }
 ```
 result:
