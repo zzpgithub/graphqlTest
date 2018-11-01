@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2015f0d6-be22-4232-8479-8122dee8dcc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/GraphqlEndPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Link.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/LinkRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/schema.graphqls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,6 +47,7 @@
           <entry key="dummy" value="1" />
           <entry key="graphqls" value="271" />
           <entry key="java" value="382" />
+          <entry key="md" value="114" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
@@ -63,6 +55,7 @@
         <counts>
           <entry key="GraphQL Schema" value="271" />
           <entry key="JAVA" value="382" />
+          <entry key="Markdown" value="114" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="7" />
         </counts>
@@ -102,11 +95,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="389">
+                <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -167,7 +162,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -234,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.graphqls" />
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -325,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541067110107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541067281767" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -354,15 +350,16 @@
       <option name="presentableId" value="Default" />
       <updated>1541054235954</updated>
       <workItem from="1541054239012" duration="1372000" />
-      <workItem from="1541055787785" duration="5407000" />
+      <workItem from="1541055787785" duration="5777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6779000" />
+    <option name="totallyTimeSpent" value="7149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="23" width="1571" height="799" extended-state="0" />
+    <frame x="413" y="42" width="1571" height="799" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,7 +377,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="GraphQL" order="7" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33239037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33097595" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500327" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49967298" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -448,14 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -497,6 +486,16 @@
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="389">
+            <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
