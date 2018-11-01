@@ -1,4 +1,5 @@
 com/howtographql/hackernews/GraphqlEndPoint.class
 com/howtographql/hackernews/Link.class
 com/howtographql/hackernews/Query.class
+com/howtographql/hackernews/Mutation.class
 com/howtographql/hackernews/LinkRepository.class

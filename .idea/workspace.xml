@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2015f0d6-be22-4232-8479-8122dee8dcc6" name="Default Changelist" comment="" />
+    <list default="true" id="2015f0d6-be22-4232-8479-8122dee8dcc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/GraphqlEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/LinkRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/howtographql/hackernews/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +34,9 @@
         <counts>
           <entry key="graphqls" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
           <entry key="jsp" value="2" />
+          <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -32,8 +44,9 @@
         <counts>
           <entry key="GraphQL Schema" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="JSP" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -41,15 +54,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="graphqls" value="162" />
-          <entry key="java" value="126" />
+          <entry key="graphqls" value="271" />
+          <entry key="java" value="382" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="GraphQL Schema" value="162" />
-          <entry key="JAVA" value="126" />
+          <entry key="GraphQL Schema" value="271" />
+          <entry key="JAVA" value="382" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="7" />
         </counts>
@@ -80,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="323">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +102,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#359#360#0" expanded="true" />
@@ -131,15 +167,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +198,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -189,11 +228,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Link.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphQLEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.graphqls" />
+        <option value="$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java" />
       </list>
     </option>
   </component>
@@ -215,11 +255,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="424" />
+    <option name="x" value="413" />
+    <option name="y" value="42" />
     <option name="width" value="1571" />
     <option name="height" value="799" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -284,7 +325,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541063178312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541067110107" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -313,16 +354,15 @@
       <option name="presentableId" value="Default" />
       <updated>1541054235954</updated>
       <workItem from="1541054239012" duration="1372000" />
-      <workItem from="1541055787785" duration="2264000" />
+      <workItem from="1541055787785" duration="5407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3636000" />
+    <option name="totallyTimeSpent" value="6779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="274" width="1571" height="799" extended-state="0" />
-    <editor active="true" />
+    <frame x="498" y="23" width="1571" height="799" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,12 +380,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="GraphQL" order="7" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33239037" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500327" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49967298" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,18 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -410,10 +438,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
@@ -424,20 +470,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/LinkRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/howtographql/hackernews/GraphqlEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="285">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,16 +9,16 @@ import javax.servlet.annotation.WebServlet;
 @WebServlet(urlPatterns = "/graphql")
 public class GraphqlEndPoint extends SimpleGraphQLServlet {
 
-    public GraphqlEndPoint() {
-        super(buildSchema());
-    }
+  public GraphqlEndPoint() {
+    super(buildSchema());
+  }
 
-    private static GraphQLSchema buildSchema() {
-        LinkRepository linkRepository = new LinkRepository();
-        return SchemaParser.newParser()
-                .file("schema.graphqls")
-                .resolvers(new Query(linkRepository))
-                .build()
-                .makeExecutableSchema();
-    }
+  private static GraphQLSchema buildSchema() {
+    LinkRepository linkRepository = new LinkRepository();
+    return SchemaParser.newParser()
+        .file("schema.graphqls")
+        .resolvers(new Query(linkRepository), new Mutation(linkRepository))
+        .build()
+        .makeExecutableSchema();
+  }
 }
