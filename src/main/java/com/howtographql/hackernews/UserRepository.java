@@ -14,7 +14,7 @@ public class UserRepository {
   }
 
   public User findByEmail(String email) {
-    Document doc = users.find(eq("emali", email)).first();
+    Document doc = users.find(eq("email", email)).first();
     return user(doc);
   }
 

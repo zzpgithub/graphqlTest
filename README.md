@@ -187,4 +187,29 @@ mutation createLink {
    }
  }
  ```
- 
+ ###sing in
+ ```
+ mutation signIn {
+   signinUser(auth: {email: "bojack@example.com", password: "secret"}) {
+     token
+     user{
+       id
+       name
+     }
+   }
+ }
+ ```
+ 结果：
+ ```
+ {
+   "data": {
+     "signinUser": {
+       "token": "5bdc0cd87caf2840ab907030",
+       "user": {
+         "id": "5bdc0cd87caf2840ab907030",
+         "name": "Bojack Horseman"
+       }
+     }
+   }
+ }
+ ```
