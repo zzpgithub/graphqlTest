@@ -1,4 +1,7 @@
 # graphqlTest
+文档： https://www.howtographql.com/graphql-java/0-introduction/
+
+核心概念： https://segmentfault.com/a/1190000014131950
 ##1. Query（查询）
 ```
 {
@@ -155,3 +158,33 @@ mutation createLink {
     	"description" : "Serverless GraphQL Backend"
     }
     ```
+ ##Authentication
+ 
+ ###create users
+ ```
+ mutation createUser {
+   createUser(
+     name: "Bojack Horseman"
+     authProvider: {
+       email: "bojack@example.com"
+       password: "secret"
+     }
+   )
+   {
+     id
+     name
+   }
+ }
+ ```
+ 结果：
+ ```
+ {
+   "data": {
+     "createUser": {
+       "id": "5bdc04cfc6e3e33fa0205165",
+       "name": "Bojack Horseman"
+     }
+   }
+ }
+ ```
+ 
